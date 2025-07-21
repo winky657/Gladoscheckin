@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-
+print("DEBUG: COOKIES from env ->", os.environ.get("COOKIES"))
 from pypushdeer import PushDeer
 
 # -------------------------------------------------------------------------------------------
